@@ -7,7 +7,7 @@ const fetchWebProjects = () => {
         return response.json();
     }).then((projects) => {
         // console.log(projects);
-        appendData(projects.reverse());
+        showWebProjects(projects.reverse());
     }).catch((e) => {
         console.log("Couldn't fetch projects. "+e);
     });
@@ -19,13 +19,13 @@ const fetchAndroidProjects = () => {
         return response.json();
     }).then((projects) => {
         // console.log(projects);
-        appendDataAndroid(projects.reverse());
+        showAndroidProjects(projects.reverse());
     }).catch((e) => {
         console.log(e);
     });
 }
 
-function appendData(data) {
+const showWebProjects =(data) => {
     const mainContainer = document.querySelector(".container");
     const androidContainer = document.querySelector(".container-android");
     androidContainer.style.display = "none";
@@ -64,10 +64,10 @@ function appendData(data) {
         div.appendChild(projectLiveBtnTag);
         div.appendChild(projectSourceBtnTag);
     }
-    
+  
 }
 
-function appendDataAndroid(data) {
+const showAndroidProjects = (data) => {
     const mainContainer = document.querySelector(".container-android");
     const webContainer = document.querySelector(".container");
     webContainer.style.display = "none";

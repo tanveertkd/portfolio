@@ -1,0 +1,15 @@
+[
+    {
+        "id": "1",
+        "blogName": "Version 1.0",
+        "blogDesc": "Website for the Assam State Taekwon-do Association. This was live for about two years before taking it down. <br /> Note: Cannot go live without permission from org.",
+        "blogLink": "./blog.html"
+    },
+    {
+        "id": "2",
+        "blogName": "ASTA",
+        "blogDesc": "Website for the Assam State Taekwon-do Association. This was live for about two years before taking it down. <br /> Note: Cannot go live without permission from org.",
+        "blogLink": "https://github.com/tanveertkd/astaitfofficial.org"
+    }
+
+]
