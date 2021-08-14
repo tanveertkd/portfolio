@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "projectName": "Quiz App",
+        "projectDesc": "A simple quiz app.",
+        "projectLink": "https://github.com/tanveertkd/6thPick",
+        "projectSource": "https://github.com/tanveertkd/6thPick"
+    },
+    {
+        "id": "2",
+        "projectName": "Travel App",
+        "projectDesc": "A travel app for tourists visiting Amsterdam. It even has commonly used phrases that can be played by the user. ",
+        "projectLink": "https://github.com/tanveertkd/TravelApp",
+        "projectSource": "https://github.com/tanveertkd/TravelApp"
+    },
+    {
+        "id": "3",
+        "projectName": "Daily Bugle",
+        "projectDesc": "A news app that fetched news from The Guardian's api.",
+        "projectLink": "https://github.com/tanveertkd/DailyBugleV1",
+        "projectSource": "https://github.com/tanveertkd/DailyBugleV1"
+    },
+    {
+        "id": "3",
+        "projectName": "Covid Tracker",
+        "projectDesc": "A sandbox app I used to learn Kotlin. It fetches the details of covid cases from around the country and displays in an easy readable format.",
+        "projectLink": "https://github.com/tanveertkd/CovidTracker",
+        "projectSource": "https://github.com/tanveertkd/CovidTracker"
+    }
+]

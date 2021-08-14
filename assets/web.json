@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "projectName": "ASTA",
+        "projectDesc": "Website for the Assam State Taekwon-do Association. This was live for about two years before taking it down. <br /> Note: Cannot go live without permission from org.",
+        "projectLink": "https://github.com/tanveertkd/astaitfofficial.org",
+        "projectSource": "https://github.com/tanveertkd/astaitfofficial.org"
+    },
+    {
+        "id": "2",
+        "projectName": "Do you know me?",
+        "projectDesc": "This is a simple quiz about me. It just has a couple of questions for you to answer. Have fun!",
+        "projectLink": "https://replit.com/@tanveertkd/neog-markOne?embed=1output=1",
+        "projectSource": "https://github.com/tanveertkd/neog-markthree-quiz1"
+    },
+    {
+        "id": "3",
+        "projectName": "New York!",
+        "projectDesc": "This is also a simple quiz. It has questions about New York. Lets see how much you know about it!",
+        "projectLink": "https://replit.com/@tanveertkd/neog-markTwo?embed=1output=1",
+        "projectSource": "https://github.com/tanveertkd/neog-markthree-quiz2"
+    },
+    {
+        "id": "4",
+        "projectName": "Minion Talk",
+        "projectDesc": "A translator that translates English to minion language.",
+        "projectLink": "https://bananastranslator.netlify.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markSix"
+    },
+    {
+        "id": "5",
+        "projectName": "Klingon Translator",
+        "projectDesc": "A translator that translates English to Klingon.",
+        "projectLink": "https://klingontalks.netlify.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markSeven/"
+    },
+    {
+        "id": "6",
+        "projectName": "Emoji Interpreter",
+        "projectDesc": "An emoji interpreter app that shows the meanings of emoji's",
+        "projectLink": "cevir.csb.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markEight"
+    },
+    {
+        "id": "7",
+        "projectName": "TV Show Recomendations",
+        "projectDesc": "A TV Show recommendations app created using React.js",
+        "projectLink": "ev477.csb.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markNine"
+    },
+    {
+        "id": "8",
+        "projectName": "Cash Register",
+        "projectDesc": "A cash register app built using Vanilla JS",
+        "projectLink": "https://cash-register-vanilla.netlify.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markTen"
+    },
+    {
+        "id": "9",
+        "projectName": "Lucky Birthday?",
+        "projectDesc": "An app that tells you whether you're birthday is lucky or not.",
+        "projectLink": "https://lucky-birthday-check.netlify.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markEleven"
+    },
+    {
+        "id": "10",
+        "projectName": "Triangles!",
+        "projectDesc": "An app with various triangle quizzes!",
+        "projectLink": "https://triangulated.netlify.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markTwelve"
+    },
+    {
+        "id": "11",
+        "projectName": "Palindrome Birthday",
+        "projectDesc": "An app that checks of your birthday is a palindrome",
+        "projectLink": "https://birthpalindrome.netlify.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markThirteen"
+    },
+    {
+        "id": "12",
+        "projectName": "Stocks Simulator",
+        "projectDesc": "An app that checks the profit/loss of a given stock",
+        "projectLink": "https://stockssimulator.netlify.app/",
+        "projectSource": "https://github.com/tanveertkd/neog-markFourteen"
+    }
+]
