@@ -32,13 +32,44 @@
     margin: 3rem;
 }
 
+.container-body img {
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+.container-body .asset-credit {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.container-body-ul {
+    padding: 0 5rem
+}
+
+.container-body-ul li {
+    margin: 1rem auto;
+}
+
+.container-body-subhead {
+    font-weight: 500;
+    color: #EF4444;
+}
+
+.asset-socials-list {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
 .blog-social-icn {
     color: #191919;
 }
 
 .asset-socials-list li{
-    display: block;
-    text-align: left;
+    margin: auto;
+    display: inline;
     padding: 0.2rem;
 }
 

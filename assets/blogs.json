@@ -2,8 +2,8 @@
     {
         "id": "1",
         "blogName": "Version 1.0",
-        "blogDesc": "Website for the Assam State Taekwon-do Association. This was live for about two years before taking it down. <br /> Note: Cannot go live without permission from org.",
-        "blogLink": "./blog.html"
+        "blogDesc": "It’s July 2020, a year that has been credited with bringing in so much drastic changes and an incomprehensible amount of chaos throughout the world. But somehow, amongst all of it I managed to publicly release an app! My very first production level software. It was a very simple app that displayed a player’s statistics in a video game. It pulled the data from an external api and ...",
+        "blogLink": "./assets/blogs/version-one.html"
     },
     {
         "id": "2",

@@ -217,10 +217,13 @@ body {
 .grid-button a {
     color: var(--primary-text-secondary);
     text-decoration: none;
+    letter-spacing: 0.1em;
 }
 
 .grid-button-two a{
     color: var(--primary-text-color);
+    letter-spacing: 0.1em;
+    font-weight: 500;
 }
 
 /* Projects */
@@ -264,7 +267,7 @@ body {
 .project-details {
     display: block;
     margin: 3rem auto;
-    padding: 1rem;
+    padding: 3rem;
     text-align: center;
     width: 60%;
     border: none;

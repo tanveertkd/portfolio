@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../../css/styles.css" />
+    <link rel="stylesheet" href="../../css/blog.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <title>Blogs | Tanveer</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand"><a href="../../">TH</a></div>
+        <ul class="nav-ul">
+            <li class="list-item-inline">
+                <a class="link" href="../../">Home</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="../../projects.html">Projects</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link link-active" href="../../blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container-blog" id="content">
+        <h1>Version 1.0</h1>
+        <div class="asset-primary">
+            <img src="../../img/blogs/version-1/primary-bg.png" alt="primary image asset" />
+            <p class="asset-credit">Cover as on Play Store</p>
+        </div>
+
+        
+            <div class="container-body">
+                <p>
+                    It’s July 2020, a year that has been credited with bringing in so much drastic changes and an incomprehensible amount of chaos throughout the world. 
+                    But somehow, amongst all of it I managed to publicly release an app! My very first production level software. It was a very simple app that displayed a 
+                    player’s statistics in a video game. It pulled the data from an external api and displayed it locally to the user in a simple form. To my surprise the 
+                    app did quite well in its own rights. It was able to gain over 5000+ downloads within 4 months of it being public all while maintaining a positive review 
+                    on the Google Play Store. All with no ads or any kind of promotion.
+                </p>
+
+                <p>
+                    The idea behind the app was for me to get exposed to the reality of production grade software and what it took to keep one up and working for daily consumption 
+                    of the masses. I wanted to learn more about proper maintenance, regular version updates, bug fixes, scaling based on user demand and a lot more all while making 
+                    sure the app stays live and has minimum downtime. I had an amazing time doing this. You could say that I was right in my zone! 
+                    It’s a very surreal thing, talking something like an app from initial planning and wire-framing to putting it out for the public to use. It’s even better when it does well. 
+                    The app was called Six Companion and it was live on the play store. The app used an api from a provider to get the data being displayed. Unfortunately the api the provider 
+                    shut down their api and I had to take the app down with it. Nevertheless, it was a great learning experience and the app did exactly what I expected from it. I got exposed 
+                    to the world of production software and all the challenges and uncertainties that come along with it, all be it for a short period of time. 
+                </p>
+                
+                <img src="../../img/blogs/version-1/secondary-bg.png" alt="secondary image asset" />
+                <p class="asset-credit">Final stats before taking it down</p>
+
+                <p>
+                    However any experience is knowledge gained so let me summarise a couple of things I learnt throughout this little project of mine.
+                </p>
+
+                <ul class="container-body-ul">
+                    <li>
+                        <span class="container-body-subhead">You don’t need to wait for perfect and extremely optimised code.</span> This is something I was worried about too. The idea of pushing out code that maybe very 
+                        basic or “noobish” and not be as good as the pros do it or may not be optimised to render out blazing fast load times did scare me for a long time. 
+                        The idea that a future employer may see that code and be like “this is not good enough” piled onto that fear too. The reality however, is far from it.  
+                        You’re always better off having a simple but a working project on your resume to account for your experience rather than having an idea about a perfectly 
+                        coded dream app that never crashes. 
+                    </li>
+
+                    <li>
+                        <span class="container-body-subhead">Make use of tools that ease help ease your workload.</span> The Google backend ecosystem. Tools like Google Firebase, Google AdMob, 
+                        Google Adsense are some very very powerful pieces of software. Implementation of anyone of these is a piece of cake that take no more than 5-10 lines of code to get you 
+                        started. All of these tools are pretty much free to get started with and stay free even as your app grows. You’ll only need to start paying once you start managing huge 
+                        databases or scale across hundreds and thousands of users. These apps have made is incredibly simple to keep track of every single aspect of your app in production. 
+                        From new a user on-boarding to versions of your app being used most, regions your app is most popular in and anything else you may want keep an eye on. Apps like Toggle 
+                        and Trello helps make this process much more organised. 
+                    </li>
+
+                    <li>
+                        <span class="container-body-subhead">Logging and crash reporting.</span> This is one of the most important points to take note of. Crashlytics among many others is a 
+                        tool that comes as a part of Firebase and it is a lifesaver. It is a logger that gives you detailed information and trace logs whenever your app crashes or encounters 
+                        any sort of unexpected behaviour. It literally takes about 2 mins to get started with it and does so with barely any code. 
+                    </li>
+
+                    <li>
+                        <span class="container-body-subhead">Take note of the requirements.</span> Setting up a developer account, pushing an app to the play console each have their own requirements. 
+                        Make sure you read and get to know them beforehand to avoid any issues later on down the line. For eg. While pushing your app to the play console you can’t have it’s package 
+                        name starting with “com.example.yourdomain” since the “com.example” is reserved by Google for their apps. I got to know that when I first tried to publish it. Lol.  
+                    </li>
+
+                </ul>
+                
+                <p>
+                    I’ve only managed to barely scratch the surface here. There’s so much more you get to learn on your own. Prioritising bug fixes, pushing up timely updates, proper app 
+                    architecture, keeping the users engaged with your product are all things you get to learn as you go on. This is the very reason why a Version 1.0 is so important as 
+                    opposed to waiting for a perfect version of it. You can always keep building upon it and keep fixing any issues that pop up because they will. With thousands of versions of 
+                    android phones and each with their own tweaks and turns you’re bound to run to issues but that’s okay because it can always be fixed! So get going with version 1 and the rest 
+                    will follow!
+                </p>
+
+                <div class="container-socials-blog">
+                    <ul class="footer-socials-list asset-socials-list">
+                        <li>
+                            <a class="footer-links" href="https://www.github.com/tanveertkd"><i class="fab fa-github fa-lg blog-social-icn"></i>GitHub</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="https://www.linkedin.com/in/tanveer-hazarika/"><i class="fab fa-linkedin fa-lg blog-social-icn"></i>LinkedIn</a>
+                        </li>
+                        <li>
+                            <a class="footer-links" href="https://www.instagram.com/tanveerhazarika"><i class="fab fa-instagram fa-lg blog-social-icn"></i>Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        
+    </div>
+
+    <footer class="footer" id="footer">
+        <div id="footer-header">I'm here too!</div>
+        
+        <div id="footer-socials">
+            <ul class="footer-socials-list">
+                <li>
+                    <a class="footer-links" href="https://www.github.com/tanveertkd"><i class="fab fa-github fa-lg social-icn"></i></a>
+                </li>
+                <li>
+                    <a class="footer-links" href="https://www.linkedin.com/in/tanveer-hazarika/"><i class="fab fa-linkedin fa-lg social-icn"></i></a>
+                </li>
+                <li>
+                    <a class="footer-links" href="https://www.instagram.com/tanveerhazarika"><i class="fab fa-instagram fa-lg social-icn"></i></a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <p id="footer-cc-text"><i class="far fa-copyright"></i> | 2021 Rights reserved</p>
+    </footer>
+
+</body>
+</html>
