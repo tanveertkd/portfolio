@@ -1,0 +1,53 @@
+.container-blog {
+    width: 50%;
+    margin: 3rem auto;
+}
+
+.asset-primary {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.asset-primary img {
+    border-radius: 0.4rem 0 0.4rem 0;
+}
+
+.asset-credit {
+    font-size: small;
+    font-weight: 500;
+}
+
+.asset-credit a {
+    text-decoration: none;
+    color: #EF4444
+}
+
+.container-blog h1 {
+    border-bottom: 1px solid #EF4444;
+    margin: 3rem auto;
+}
+
+.container-body p {
+    text-align: justify;
+    margin: 3rem;
+}
+
+.blog-social-icn {
+    color: #191919;
+}
+
+.asset-socials-list li{
+    display: block;
+    text-align: left;
+    padding: 0.2rem;
+}
+
+.asset-socials-list a {
+    text-decoration: none;
+    color: #191919;
+    font-weight: 500;
+}
+
+.asset-socials-list i {
+    margin-right: 0.5rem;
+}
