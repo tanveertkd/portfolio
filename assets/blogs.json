@@ -7,9 +7,9 @@
     },
     {
         "id": "2",
-        "blogName": "ASTA",
-        "blogDesc": "Website for the Assam State Taekwon-do Association. This was live for about two years before taking it down. <br /> Note: Cannot go live without permission from org.",
-        "blogLink": "https://github.com/tanveertkd/astaitfofficial.org"
+        "blogName": "Imposter Syndrome and Getting Through it",
+        "blogDesc": "As we delve deep into the word of code complex buzzwords like algorithms, data structures, artificial intellegence, machine learning are always being thrown around left and right. It seems like neural networks and deep learing is all people are talking about these days. Now although these words seem super cool and all to people but for someone who is new and has just started to get ...",
+        "blogLink": "./assets/blogs/imposter.html"
     }
 
 ]

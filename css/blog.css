@@ -30,6 +30,8 @@
 .container-body p {
     text-align: justify;
     margin: 3rem;
+    line-height: 1.5em;
+    font-size: 1.1em;
 }
 
 .container-body img {
@@ -50,6 +52,7 @@
 
 .container-body-ul li {
     margin: 1rem auto;
+    line-height: 1.5em;
 }
 
 .container-body-subhead {
