@@ -38,14 +38,14 @@
         "id": "6",
         "projectName": "Emoji Interpreter",
         "projectDesc": "An emoji interpreter app that shows the meanings of emoji's",
-        "projectLink": "cevir.csb.app/",
+        "projectLink": "https://cevir.csb.app/",
         "projectSource": "https://github.com/tanveertkd/neog-markEight"
     },
     {
         "id": "7",
         "projectName": "TV Show Recomendations",
         "projectDesc": "A TV Show recommendations app created using React.js",
-        "projectLink": "ev477.csb.app/",
+        "projectLink": "https://ev477.csb.app/",
         "projectSource": "https://github.com/tanveertkd/neog-markNine"
     },
     {
