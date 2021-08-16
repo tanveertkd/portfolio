@@ -85,3 +85,40 @@
 .asset-socials-list i {
     margin-right: 0.5rem;
 }
+
+/* Media */
+
+@media screen and (max-width: 600px) {
+    .container-blog {
+        width: 80%;
+    }
+
+    .asset-primary img {
+        width: 100%;
+    }
+
+    .container-body p {
+        margin: 1rem auto;
+    }
+
+    .asset-secondary img {
+        width: 100%;
+    }
+
+    .asset-secondary p {
+        font-size: small;
+    }
+
+    .container-body-ul {
+        padding: 0 2rem;
+        text-align: justify;
+    }
+
+    .asset-socials-list {
+        margin: 2rem auto;
+    }
+
+    .asset-socials-list li{
+        padding: 0;
+    }
+}
