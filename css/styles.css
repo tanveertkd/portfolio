@@ -119,18 +119,20 @@ body {
 }
 
 .hero-btn {
-    padding: 1rem;
     width: 40%;
     margin-top: 1rem;
     border: none;
     border-radius: 0.5rem;
     background-color: var(--primary-text-color);
+    cursor: pointer;
 }
 
 .hero-btn a {
+    display: block;
     color: var(--primary-bg-color);
     text-decoration: none;
     letter-spacing: 0.2em;
+    padding: 1rem;
 }
 
 /** sections **/
@@ -202,7 +204,6 @@ body {
     display: block;
     text-align: center;
     margin: 1rem auto;
-    padding: 1rem;
     background-color: var(--primary-darker-section);
     color: var(--primary-text-secondary);
     border: none;
@@ -215,9 +216,11 @@ body {
 }
 
 .grid-button a {
+    display: block;
     color: var(--primary-text-secondary);
     text-decoration: none;
     letter-spacing: 0.1em;
+    padding: 1rem;
 }
 
 .grid-button-two a{
@@ -285,7 +288,6 @@ body {
 }
 
 .project-details-live-btn {
-    padding: 1rem;
     width: 10%;
     margin: 1rem auto;
     margin-right: 0.25rem;
@@ -295,12 +297,15 @@ body {
 }
 
 .project-details-live-btn a {
+    display: block;
+    padding: 1rem;
     text-decoration: none;
     color: var(--primary-bg-color);
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 .project-details-source-btn {
-    padding: 1rem;
     width: 10%;
     margin: 1rem auto;
     margin-left: 0.25rem;
@@ -311,8 +316,12 @@ body {
 }
 
 .project-details-source-btn a {
+    display: block;
+    padding: 1rem;
     text-decoration: none;
     color: var(--primary-btn-color);
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 .footer {
