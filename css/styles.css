@@ -459,4 +459,9 @@ body {
     .hero-prj h3 {
         width: 85%;
     }
+
+    .footer-cc-text {
+        display: block;
+        width: 100%;
+    }
 }
