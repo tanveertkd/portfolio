@@ -1,6 +1,9 @@
 const webFilterBtn = document.querySelector(".web");
 const androidFilterBtn = document.querySelector(".android");
 
+var webLoadFlag = 1;
+var androidLoadFlag = 0;
+
 const fetchWebProjects = () => {
     fetch('./assets/web.json')
     .then((response) => {
@@ -110,5 +113,18 @@ const showAndroidProjects = (data) => {
 }
 
 fetchWebProjects();
-webFilterBtn.addEventListener("click", fetchWebProjects);
-androidFilterBtn.addEventListener("click", fetchAndroidProjects);
+
+webFilterBtn.addEventListener("click", (webLoadFlag === 0) ? fetchWebProjects : showWebProjects);
+
+androidFilterBtn.addEventListener("click", () => {
+    if(androidLoadFlag === 0){
+        androidLoadFlag = 1;
+        fetchAndroidProjects();
+    }else{
+        showAndroidProjects();
+    }
+});
+
+//0 load
+//1 already loaded
+
