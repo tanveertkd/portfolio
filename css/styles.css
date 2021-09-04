@@ -258,6 +258,15 @@ body {
 .web {
     background-color: var(--primary-text-color);
     color: var(--primary-bg-color);
+    letter-spacing: 0.08em;
+}
+
+.web:hover {
+    cursor: pointer;
+    background-color: var(--primary-btn-color);
+    border: 1px solid var(--primary-btn-color);
+    color: var(--primary-bg-color);
+    font-weight: bold;
 }
 
 .android {
@@ -265,6 +274,14 @@ body {
     border: 1px solid var(--primary-btn-color);
     color: var(--primary-btn-color);
     font-weight: bold;
+    letter-spacing: 0.08em;
+}
+
+.android:hover {
+    cursor: pointer;
+    background-color: var(--primary-btn-color);
+    color: var(--primary-bg-color);
+    border: 0.5px solid var(--primary-btn-color);
 }
 
 .project-details {
